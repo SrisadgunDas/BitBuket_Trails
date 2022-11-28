@@ -1,0 +1,84 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fswiss\fcharset0 ArialMT;\f2\fmodern\fcharset0 Courier;
+\f3\froman\fcharset0 Times-Roman;\f4\fnil\fcharset0 Verdana;\f5\fnil\fcharset0 Menlo-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red220\green161\blue13;\red26\green26\blue26;\red255\green255\blue255;
+\red9\green8\blue8;\red28\green27\blue0;\red9\green8\blue8;\red170\green125\blue255;\red23\green23\blue23;
+\red194\green125\blue100;\red202\green202\blue202;\red94\green255\blue255;\red255\green255\blue255;\red0\green0\blue0;
+\red252\green90\blue63;}
+{\*\expandedcolortbl;;\cssrgb\c89412\c68627\c3922;\cssrgb\c13333\c13333\c13333;\cssrgb\c100000\c100000\c100000;
+\cssrgb\c3137\c2745\c2745;\cssrgb\c14868\c14010\c0;\cssrgb\c3140\c2747\c2744;\cssrgb\c72909\c58657\c100000;\cssrgb\c11791\c11791\c11761;
+\cssrgb\c80772\c56796\c46790;\cssrgb\c83137\c83137\c83137;\cssrgb\c41630\c100000\c100000;\cssrgb\c100000\c100000\c99985;\cssrgb\c0\c0\c0;
+\cssrgb\c99887\c44382\c31149;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25380\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\fs26 \cf0 username : {\field{\*\fldinst{HYPERLINK "mailto:integration@oscaritsol.com"}}{\fldrslt \cf2 integration@oscaritsol.com}}\
+Password: Sadgundas@6814\
+SecurityToken : 
+\f1\fs28 \cf3 \cb4 \expnd0\expndtw0\kerning0
+6sSC744hnpkU0gV07feE4hfSj
+\f0\fs26 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+oauthurl endpoint : https://login.salesforce.com/services/oauth2/token\
+method : POST\
+\
+Key : 3MVG9n_HvETGhr3C3yQI3ux3IkjGNoMTEskgOM_G6RO5SrOJtU5duFOMdJ84cGQpbB_47vWqhf_EyX130771P\
+Secret: E5FFEF796D730B3C05477DA23DDFD02DC90F69B6B860DEFF91E269633EE3B611\
+\
+\
+curl -v https://login.salesforce.com/services/oauth2/token -d "grant_type=password" -d "client_id= 3MVG9n_HvETGhr3C3yQI3ux3IkjGNoMTEskgOM_G6RO5SrOJtU5duFOMdJ84cGQpbB_47vWqhf_EyX130771P" -d "client_secret= E5FFEF796D730B3C05477DA23DDFD02DC90F69B6B860DEFF91E269633EE3B611" -d "username={\field{\*\fldinst{HYPERLINK "mailto:integration@oscaritsol.com"}}{\fldrslt \cf2 integration@oscaritsol.com}}" -d "password=Sadgundas@6814
+\f1\fs28 \cf3 \cb4 \expnd0\expndtw0\kerning0
+6sSC744hnpkU0gV07feE4hfSj
+\f0\fs26 \cf0 \cb1 \kerning1\expnd0\expndtw0 " -H "X-PrettyPrint:1"\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf5 \cb4 \expnd0\expndtw0\kerning0
+grant_type=password&client_id=
+\f0\fs26 \cf0 \cb1 \kerning1\expnd0\expndtw0 3MVG9n_HvETGhr3C3yQI3ux3IkjGNoMTEskgOM_G6RO5SrOJtU5duFOMdJ84cGQpbB_47vWqhf_EyX130771P
+\f2\fs28 \cf5 \cb4 \expnd0\expndtw0\kerning0
+&client_secret=
+\f0\fs26 \cf0 \cb1 \kerning1\expnd0\expndtw0 E5FFEF796D730B3C05477DA23DDFD02DC90F69B6B860DEFF91E269633EE3B611
+\f2\fs28 \cf5 \cb4 \expnd0\expndtw0\kerning0
+&username={\field{\*\fldinst{HYPERLINK "mailto:integration@oscaritsol.com"}}{\fldrslt 
+\f0\fs26 \cf2 \cb1 \kerning1\expnd0\expndtw0 integration@oscaritsol.com}}&password=
+\f0\fs26 \cf0 \cb1 \kerning1\expnd0\expndtw0 Sadgundas@6814
+\f1\fs28 \cf3 \cb4 \expnd0\expndtw0\kerning0
+6sSC744hnpkU0gV07feE4hfSj
+\f2 \cf5 \
+
+\f0\fs26 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+Accesstoken :\cf6  
+\f3\fs24 \cf8 \cb9 \expnd0\expndtw0\kerning0
+00D2w00000GXDDA!AR8AQCsRsvUtYtY1ykq_wU76Xdl8f7VZw2NkY61HfHHz.lvGeYneMI8mQbkn6WUaFTRfXdaxfjUSfKZtwBFZXaZzMQyaEfIn\cf11 \cb1 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\fs26 \cf0 \kerning1\expnd0\expndtw0 \
+SessionId  = System.debug(UserInfo.getOrganizationId().substring(0, 15) + '  ' +  UserInfo.getSessionId().substring(15));\
+\
+Workbench :   https://oscaritsol-dev-ed.develop.my.salesforce.com/ /services/apexrest/Cases/?Id=\
+\
+caseId : 5002w00000WfgNXAAZ\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa60\partightenfactor0
+\ls1\ilvl0
+\f4\fs24 \cf0 \cb4 {\listtext	
+\f5\b \cf12 \cb13 \uc0\u8226 	}\cf12 \cb13 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec14 CaseNumber:\'a000001002\
+\ls1\ilvl0\cf12 \cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\cf12 \cb13 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec14 Subject:\'a0Seeking guidance on electrical wiring installation for GC5060\
+\ls1\ilvl0\cf12 \cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\cf12 \cb13 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec14 Status:\'a0New\
+\ls1\ilvl0\cf12 \cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\cf12 \cb13 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec14 Origin:\'a0Web\
+\ls1\ilvl0\cf12 \cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\cf12 \cb13 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec14 Priority:\'a0Low\
+\ls1\ilvl0\cf12 \cb13 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\cf12 \cb13 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec14 Id:\'a05002w00000WfgNXAAZ\cf15 \cb4 \
+}
